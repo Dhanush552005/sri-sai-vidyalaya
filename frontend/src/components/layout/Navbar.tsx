@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import { Menu, X, ChevronRight, Instagram, MessageCircle, Mail, Phone, ArrowRight, Sparkles, GraduationCap, Users2, Globe, Shield } from "lucide-react"
+import { Menu, X, ChevronRight, Instagram, Facebook, MessageCircle, Mail, Phone, ArrowRight, Sparkles, GraduationCap, Users2, Globe, Shield } from "lucide-react"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "motion/react"
 import { fullMenu, type MenuItem } from "@/lib/menu"
@@ -431,9 +431,10 @@ const Navbar = () => {
                                                     {[
                                                         {
                                                             Icon: MessageCircle,
-                                                            href: "https://wa.me/919886771063?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20admissions%20at%20Sri%20Sai%20Vidyalaya."
+                                                            href: "https://wa.me/919986408779?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20admissions%20at%20Sri%20Sai%20Vidyalaya."
                                                         },
-                                                        { Icon: Instagram, href: "https://www.instagram.com/srisaividyalaya?igsh=MTBjamg0a3Bzbjc0Yw==" }
+                                                        { Icon: Instagram, href: "https://www.instagram.com/srisaividyalaya?igsh=MTBjamg0a3Bzbjc0Yw==" },
+                                                        { Icon: Facebook, href: "https://www.facebook.com/people/Sri-Sai-Vidyalaya/pfbid02DzuzUihva4wENuQmS8z3gVcVLspjcsHs3Sxzfy6EE8hEJTB8ya2dH8wTZtqLwwUrl/" }
                                                     ].map((social, i) => (
                                                         <a
                                                             key={i}

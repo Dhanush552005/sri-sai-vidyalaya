@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react"
 import { useState } from "react"
-import { MessageCircle, Instagram, Plus, X } from "lucide-react"
+import { MessageCircle, Instagram, Facebook, Plus, X } from "lucide-react"
 
 const socialLinks = [
     {
@@ -16,6 +16,13 @@ const socialLinks = [
         href: "https://www.instagram.com/srisaividyalaya?igsh=MTBjamg0a3Bzbjc0Yw==",
         color: "bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888]",
         label: "Follow"
+    },
+    {
+        name: "Facebook",
+        icon: <Facebook className="w-5 h-5" />,
+        href: "https://www.facebook.com/people/Sri-Sai-Vidyalaya/pfbid02DzuzUihva4wENuQmS8z3gVcVLspjcsHs3Sxzfy6EE8hEJTB8ya2dH8wTZtqLwwUrl/",
+        color: "bg-[#1877F2]",
+        label: "Like"
     }
 ]
 

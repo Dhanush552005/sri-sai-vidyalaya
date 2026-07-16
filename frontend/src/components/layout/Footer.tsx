@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import {
     Instagram,
+    Facebook,
     MessageCircle,
     Mail,
     MapPin,
@@ -40,7 +41,8 @@ const Footer = () => {
                     <div className="flex gap-3">
                         {[
                             { Icon: MessageCircle, href: "https://wa.me/919986408779?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20admissions%20at%20Sri%20Sai%20Vidyalaya." },
-                            { Icon: Instagram, href: "#" }
+                            { Icon: Instagram, href: "#" },
+                            { Icon: Facebook, href: "https://www.facebook.com/people/Sri-Sai-Vidyalaya/pfbid02DzuzUihva4wENuQmS8z3gVcVLspjcsHs3Sxzfy6EE8hEJTB8ya2dH8wTZtqLwwUrl/" }
                         ].map((social, i) => (
                             <a
                                 key={i}
