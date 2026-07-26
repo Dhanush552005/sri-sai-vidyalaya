@@ -21,11 +21,13 @@ const heroImages = [
 
 const galleryItems = [
     { image: "/other-campus/campus-9.jpg", text: "Vibrant Campus" },
-    { image: "/other-campus/campus-10.jpg", text: "Graduation Day" },
-    { image: "/other-campus/campus-8.jpg", text: "Central Library" },
-    { image: "/other-campus/campus-1.jpg", text: "Student Life" },
-    { image: "/other-campus/campus-6.jpg", text: "Collaborative Learning" },
-    { image: "/other-campus/campus-11.jpg", text: "Modern Classrooms" },
+    { image: "/other-campus/campus-8.jpeg", text: "Central Library" },
+    { image: "/other-campus/campus-1.jpeg", text: "Student Life" },
+    { image: "/other-campus/campus-6.jpeg", text: "Collaborative Learning" },
+    { image: "/other-campus/campus-11.jpeg", text: "Modern Classrooms" },
+    { image: "/other-campus/campus-2.jpeg", text: "Kreedo Lab" },
+    { image: "/other-campus/campus-3.jpeg", text: "Cubs & Bulbul" },
+    { image: "/other-campus/campus-4.jpeg", text: "Robotics Activity" },
 ]
 
 const Home = () => {
