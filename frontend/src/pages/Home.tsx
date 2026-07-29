@@ -28,6 +28,7 @@ const galleryItems = [
     { image: "/other-campus/campus-2.jpeg", text: "Kreedo Lab" },
     { image: "/other-campus/campus-3.jpeg", text: "Cubs & Bulbul" },
     { image: "/other-campus/campus-4.jpeg", text: "Robotics Activity" },
+    { image: "/other-campus/campus-10.jpeg", text: "Scouts & Guides" },
 ]
 
 const Home = () => {

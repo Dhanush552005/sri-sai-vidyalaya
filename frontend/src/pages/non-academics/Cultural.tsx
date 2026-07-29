@@ -9,7 +9,7 @@ const Cultural = () => {
                 {/* HERO (Premium + Dynamic) */}
                 <section className="relative h-[65vh] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
                     <img
-                        src="/cultural/cultural-1.jpg"
+                        src="/cultural/cultural-1.jpeg"
                         alt="Cultural Excellence"
                         className="w-full h-full object-cover"
                     />
@@ -121,14 +121,14 @@ const Cultural = () => {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="rounded-[2rem] overflow-hidden shadow-xl border-4 border-white">
                             <img
-                                src="/cultural/cultural-2.jpg"
+                                src="/cultural/cultural-2.jpeg"
                                 alt="Cultural Event 1"
                                 className="w-full h-full object-cover hover:scale-105 transition duration-500"
                             />
                         </div>
                         <div className="rounded-[2rem] overflow-hidden shadow-xl border-4 border-white">
                             <img
-                                src="/cultural/cultural-3.jpg"
+                                src="/cultural/cultural-3.jpeg"
                                 alt="Cultural Event 2"
                                 className="w-full h-full object-cover hover:scale-105 transition duration-500"
                             />

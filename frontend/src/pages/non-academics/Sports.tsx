@@ -82,7 +82,7 @@ const Sports = () => {
                         >
                             <div className="aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-[2rem] lg:rounded-[3rem] overflow-hidden shadow-2xl border-4 sm:border-6 lg:border-8 border-white relative group">
                                 <img
-                                    src="/games/game-hero.jpg"
+                                    src="/games/game-hero.jpeg"
                                     alt="Throwball"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
