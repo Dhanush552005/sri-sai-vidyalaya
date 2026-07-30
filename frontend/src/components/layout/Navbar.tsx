@@ -183,7 +183,7 @@ const Navbar = () => {
 
                                 {/* Logo strip */}
                                 <div className="hidden lg:flex items-center gap-3 px-8 pt-10 pb-8 border-b border-white/5">
-                                    <img src="/logo.png" alt="Logo" className="h-9 w-9 object-contain" />
+                                    <img src="/logo.png" alt="Logo" className="h-10 w-10 object-contain" />
                                     <div>
                                         <p className="text-white font-display font-black text-sm leading-tight">SRI SAI VIDYALAYA</p>
                                         <p className="text-brand-gold text-[9px] font-black tracking-[0.3em] uppercase">Excellence in Education</p>
