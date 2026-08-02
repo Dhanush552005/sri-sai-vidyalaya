@@ -232,13 +232,13 @@ const Infrastructure = () => {
                                 "/gallery/g11.jpeg",
                                 "/gallery/g12.jpeg",
                                 "/gallery/g13.jpeg",
-                                "/gallery/g14.jpg",
-                                "/gallery/g15.jpg",
-                                "/gallery/g16.jpg",
-                                "/gallery/g17.jpg",
+                                "/gallery/g14.jpeg",
+                                "/gallery/g15.jpeg",
+                                "/gallery/g16.jpeg",
+                                "/gallery/g17.jpeg",
                                 "/gallery/g18.jpeg",
                                 "/gallery/g19.jpeg",
-                                "/gallery/g20.jpg",
+                                "/gallery/g20.jpeg",
                             ]}
                             fit={isMobile ? 0.9 : 0.7}
                             minRadius={isMobile ? 450 : 550}

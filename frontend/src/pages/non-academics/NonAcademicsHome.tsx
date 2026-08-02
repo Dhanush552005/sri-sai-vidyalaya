@@ -56,14 +56,14 @@ const NonAcademicsHome = () => {
                             desc: 'Developing teamwork, discipline, leadership, and physical fitness through sports and athletic activities.',
                             icon: Trophy,
                             path: '/non-academics/sports',
-                            image: '/games/game-hero.jpg'
+                            image: '/games/game-hero.jpeg'
                         },
                         {
                             title: 'Cultural Activities',
                             desc: 'Encouraging creativity and artistic excellence through dance, music, drama, literary events, and celebrations.',
                             icon: Music,
                             path: '/non-academics/cultural',
-                            image: '/cultural/cultural-1.jpg'
+                            image: '/cultural/cultural-1.jpeg'
                         },
                         {
                             title: 'College Committees',

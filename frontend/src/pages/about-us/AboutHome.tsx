@@ -131,42 +131,6 @@ const AboutHome = () => {
                     </div>
                 </section>
 
-                {/* Legacy Overview Section */}
-                <Section>
-                    <motion.div
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={viewportConfig}
-                        variants={containerVariants}
-                        className="grid lg:grid-cols-12 gap-16 items-center"
-                    >
-                        <div className="lg:col-span-12 xl:col-span-7 space-y-12">
-                            <SectionHeader
-                                title="Our Journey"
-                                badge="Legacy of Two Decades"
-                                subtitle="Established with a vision to revolutionize education, SRI SAI VIDYALAYA has evolved into a premier destination for academic rigor and holistic development."
-                            />
-
-                            <div className="flex gap-12">
-                                <motion.div variants={itemVariants} className="space-y-2">
-                                    <p className="text-brand-gold text-5xl lg:text-7xl font-extrabold">20+</p>
-                                    <p className="text-[10px] font-bold text-slate-400 tracking-[0.4em] uppercase">Years of Excellence</p>
-                                </motion.div>
-                            </div>
-                        </div>
-
-                        <div className="lg:col-span-12 xl:col-span-5 relative group">
-                            <motion.div
-                                variants={itemVariants}
-                                className="aspect-[4/5] rounded-[4rem] overflow-hidden shadow-2xl border-[12px] border-white relative z-10"
-                            >
-                                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80&w=800" alt="Students in Campus" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
-                            </motion.div>
-                            <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-brand-gold/10 rounded-full blur-[100px] -z-0" />
-                        </div>
-                    </motion.div>
-                </Section>
-
                 <Section className="relative overflow-hidden py-20 lg:py-28 rounded-[60px]">
 
                     {/* Background Image ONLY */}
