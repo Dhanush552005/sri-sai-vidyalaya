@@ -7,7 +7,6 @@ import PageWrapper from "@/components/layout/PageWrapper";
 import Section from "@/components/layout/Section";
 import SectionHeader from "@/components/ui/SectionHeader";
 import InfoCard from "@/components/ui/InfoCard";
-import { containerVariants, itemVariants, viewportConfig } from "@/lib/motion";
 
 const heroImages = [
     {
