@@ -239,6 +239,8 @@ const Infrastructure = () => {
                                 "/gallery/g18.jpeg",
                                 "/gallery/g19.jpeg",
                                 "/gallery/g20.jpeg",
+                                "/gallery/g21.jpeg",
+                                "/gallery/g22.jpeg",
                             ]}
                             fit={isMobile ? 0.9 : 0.7}
                             minRadius={isMobile ? 450 : 550}
