@@ -33,6 +33,7 @@ import Sports from './pages/non-academics/Sports';
 import Cultural from './pages/non-academics/Cultural';
 import Spiritial from './pages/non-academics/Spiritual';
 import Nss from './pages/non-academics/Nss';
+import ExtraCurriculum from './pages/non-academics/ExtraCurriculum';
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -70,6 +71,7 @@ function AnimatedRoutes() {
                         <Route index element={<NonAcademics />} />
                         <Route path="sports" element={<Sports />} />
                         <Route path="cultural" element={<Cultural />} />
+                        <Route path="extra-curriculum" element={<ExtraCurriculum />} />
                         <Route path="spiritual" element={<Spiritial />} />
                         <Route path="nss" element={<Nss />} />
                     </Route>

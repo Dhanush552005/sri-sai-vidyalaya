@@ -42,6 +42,7 @@ export const fullMenu: MenuItem[] = [
             { label: "Overview", path: "/non-academics" },
             { label: "Sports", path: "/non-academics/sports" },
             { label: "Cultural", path: "/non-academics/cultural" },
+            { label: "Extra-Curricular", path: "/non-academics/extra-curriculum" },
             { label: "Spiritual", path: "/non-academics/spiritual" },
             { label: "School Committees", path: "/non-academics/nss" },
         ],
