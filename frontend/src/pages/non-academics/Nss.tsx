@@ -199,7 +199,7 @@ const Nss = () => {
                     </div>
                 </motion.div>
 
-                {/* COLLEGE COMMITTEES GRID */}
+                {/* School COMMITTEES GRID */}
                 <motion.div
                     initial="hidden"
                     whileInView="visible"

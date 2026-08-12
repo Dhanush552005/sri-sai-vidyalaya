@@ -16,40 +16,40 @@ import { containerVariants, itemVariants, viewportConfig } from "@/lib/motion";
 const History = () => {
   const milestones = [
     {
-      title: "Establishment of the Institution",
+      title: "Establishment of the School",
       icon: Flag,
-      desc: "Founded with a visionary mission to empower women through quality education and value-based learning.",
-      step: "Founder's Vision"
+      desc: "Established with a vision to provide quality education and a strong foundation for children in a caring and disciplined environment.",
+      step: "Beginning"
     },
     {
-      title: "Academic Expansion",
+      title: "Building Strong Foundations",
       icon: GraduationCap,
-      desc: "Introduction of diverse academic programs in Commerce, Science and Computer Applications.",
-      step: "Growth Phase"
+      desc: "Focused on developing essential academic skills, good habits, discipline, communication, and confidence among young learners.",
+      step: "Foundation"
     },
     {
-      title: "Infrastructure Development",
+      title: "Academic Development",
       icon: BookOpen,
-      desc: "Modern classrooms, laboratories, computer facilities and a resource-rich academic library.",
-      step: "Excellence"
+      desc: "Strengthened classroom learning through dedicated teachers, engaging teaching methods, and a supportive academic environment.",
+      step: "Learning"
     },
     {
-      title: "Technology Integration",
+      title: "Beyond the Classroom",
       icon: Cpu,
-      desc: "Adoption of modern technological resources and internet-enabled learning.",
-      step: "Modernization"
+      desc: "Expanded opportunities for students through sports, cultural activities, yoga, celebrations, competitions, and other co-curricular programs.",
+      step: "Holistic Growth"
     },
     {
-      title: "Holistic Student Development",
+      title: "Student-Centered Development",
       icon: Award,
-      desc: "Extracurricular activities, leadership programs and personality development initiatives.",
+      desc: "Continued focus on the overall development of students by nurturing creativity, leadership, discipline, values, and social responsibility.",
       step: "Student First"
     },
     {
-      title: "Continuing the Founder’s Vision",
+      title: "Continuing the Legacy",
       icon: TrendingUp,
-      desc: "Carrying forward the legacy of Sri. Y. Ramachandra through academic excellence and social responsibility.",
-      step: "Legacy"
+      desc: "SRI SAI VIDYALAYA continues to grow while remaining committed to quality education, strong values, student wellbeing, and preparing children for the future.",
+      step: "Future"
     }
   ];
 
@@ -69,13 +69,13 @@ const History = () => {
           <div className="space-y-6 relative z-10 text-center lg:text-left">
             <motion.div variants={itemVariants} className="flex items-center justify-center lg:justify-start gap-3">
               <div className="h-1 lg:h-1.5 w-12 bg-brand-gold rounded-full" />
-              <p className="text-brand-navy font-black text-[10px] lg:text-xs tracking-[0.4em] uppercase font-display italic">Our Legacy</p>
+              <p className="text-brand-navy font-black text-[10px] lg:text-xs tracking-[0.4em] uppercase font-display italic">Our School Legacy</p>
             </motion.div>
             <motion.h1 variants={itemVariants} className="text-3xl lg:text-6xl font-black font-display text-brand-navy leading-tight tracking-tight italic uppercase">
-              A Visionary <span className="text-brand-gold">Foundation</span>
+              A Legacy of <span className="text-brand-gold">Learning</span>
             </motion.h1>
             <motion.p variants={itemVariants} className="text-slate-500 text-sm lg:text-base leading-relaxed max-w-4xl font-medium  font-display mx-auto lg:mx-0">
-              The foundation of the institution is deeply rooted in the visionary ideals of Sri. Y. Ramachandra, a distinguished educationist, freedom fighter, and former Mayor of Bangalore.
+              SRI SAI VIDYALAYA is built on a strong foundation of quality education, discipline, values, and holistic development, with a vision to nurture young learners into confident and responsible individuals.
             </motion.p>
           </div>
         </motion.div>
@@ -92,13 +92,10 @@ const History = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-brand-gold/10 transition-colors" />
             <div className="space-y-4 text-slate-600 leading-relaxed font-bold italic font-display text-sm lg:text-base">
               <p>
-                Sri. Y. Ramachandra was a distinguished educationist, freedom fighter, former Mayor of Bangalore,
-                and Minister in the Government of Karnataka.
+                SRI SAI VIDYALAYA was established with the vision of providing children with a strong educational foundation in a safe, caring, and value-based environment.
               </p>
               <p>
-                With a strong commitment to social progress and educational empowerment,
-                he established the institution to create opportunities for young women
-                to achieve academic excellence and personal growth.
+                From its early years, the school has focused on developing strong academic skills, good character, discipline, creativity, and confidence among students.
               </p>
             </div>
           </motion.div>
@@ -107,12 +104,10 @@ const History = () => {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 opacity-50" />
             <div className="space-y-4 text-white   leading-relaxed font-bold italic font-display text-sm lg:text-base">
               <p>
-                Guided by foresight and dedication, the institution was envisioned as
-                a center of learning where knowledge, discipline and values shape
-                future generations.
+                The school believes that education extends beyond textbooks and examinations. Students are encouraged to explore their interests through sports, cultural activities, yoga, celebrations, community initiatives, and other co-curricular experiences.
               </p>
               <p>
-                Today, we continue to uphold these standards, ensuring that every student who walks through our doors is prepared for the challenges of the modern world.
+                Today, SRI SAI VIDYALAYA continues to build on this vision by providing students with opportunities to learn, grow, participate, and develop the skills and values needed for a successful and responsible future.
               </p>
             </div>
           </motion.div>
@@ -132,11 +127,11 @@ const History = () => {
               <Quote className="h-10 w-10 text-brand-gold opacity-50" />
             </motion.div>
             <motion.h2 variants={itemVariants} className="text-2xl lg:text-4xl font-black font-display italic uppercase leading-tight text-blue-100">
-              “Education is the most powerful instrument of <span className="text-brand-gold">social transformation</span>.”
+              “Education is not only about learning lessons, but also about building character, confidence, values, and a strong foundation for life.”
             </motion.h2>
             <motion.div variants={itemVariants} className="space-y-1">
               <div className="h-px w-12 bg-brand-gold mx-auto mb-2" />
-              <p className="text-brand-gold font-black text-[10px] tracking-[0.4em] uppercase font-display ">Founder's Philosophy</p>
+              <p className="text-brand-gold font-black text-[10px] tracking-[0.4em] uppercase font-display ">School Philosophy</p>
             </motion.div>
           </div>
         </motion.div>
@@ -165,11 +160,11 @@ const History = () => {
               className="text-center space-y-4"
             >
               <motion.p variants={itemVariants} className="text-brand-gold font-black text-[10px] tracking-[0.4em] uppercase font-display ">
-                Decades of Excellence
+                Growing Through the Years
               </motion.p>
 
               <motion.h2 variants={itemVariants} className="text-2xl lg:text-4xl font-black font-display text-brand-navy italic uppercase">
-                Institutional <span className="text-brand-gold">Milestones</span> 
+                School <span className="text-brand-gold">Milestones</span> 
               </motion.h2>
             </motion.div>
 
@@ -227,9 +222,9 @@ const History = () => {
           <div className="absolute top-0 right-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
           <div className="relative z-10 text-center lg:text-left space-y-10">
             <div className="space-y-4">
-              <motion.h3 variants={itemVariants} className="text-2xl lg:text-5xl text-blue-100 font-black font-display tracking-tight uppercase italic leading-none">Continuing the <br /><span className="text-brand-gold">Legacy</span></motion.h3>
+              <motion.h3 variants={itemVariants} className="text-2xl lg:text-5xl text-blue-100 font-black font-display tracking-tight uppercase italic leading-none">Growing Together <br /><span className="text-brand-gold">Into the Future</span></motion.h3>
               <motion.p variants={itemVariants} className=" text-blue-100/80 font-medium font-display text-sm lg:text-base leading-relaxed">
-                The institution continues to nurture talent, encourage innovation, and provide a learning environment that empowers students to become responsible citizens and future leaders.
+                SRI SAI VIDYALAYA continues to nurture young minds through quality education, strong values, discipline, creativity, and holistic development, helping every student grow into a confident, responsible, and capable individual.
               </motion.p>
             </div>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
@@ -238,7 +233,7 @@ const History = () => {
                   to="/academics"
                   className="px-8 py-4 bg-brand-gold text-brand-navy rounded-xl font-black text-[10px] tracking-[0.3em] uppercase flex items-center gap-3 transition-all font-display active:scale-95 shadow-xl shadow-yellow-900/40 hover:bg-white"
                 >
-                  Explore Our Programs <ArrowRight className="h-4 w-4" />
+                  Explore Our School <ArrowRight className="h-4 w-4" />
                 </Link>
               </motion.div>
             </div>

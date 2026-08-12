@@ -66,7 +66,7 @@ const NonAcademicsHome = () => {
                             image: '/cultural/cultural-1.jpeg'
                         },
                         {
-                            title: 'College Committees',
+                            title: 'School Committees',
                             desc: 'Dedicated committees ensure the smooth functioning of academic, administrative, cultural, examination, library, and student welfare activities.',
                             icon: Users,
                             path: '/non-academics/nss',

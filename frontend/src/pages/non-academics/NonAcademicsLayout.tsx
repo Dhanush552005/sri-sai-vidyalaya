@@ -7,7 +7,7 @@ const NonAcademicsLayout = () => {
         { path: "/non-academics/sports", label: "Sports & Games", icon: Sparkles },
         { path: "/non-academics/cultural", label: "Cultural Activities", icon: Sparkles },
         { path: "/non-academics/spiritual", label: "Spiritual & Mindfulness", icon: Sparkles },
-        { path: "/non-academics/nss", label: "College Committees", icon: Users },
+        { path: "/non-academics/nss", label: "School Committees", icon: Users },
     ];
 
     return (
