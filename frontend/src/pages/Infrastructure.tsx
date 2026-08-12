@@ -1,4 +1,4 @@
-import { Beaker, Library as LibraryIcon, Trophy, Utensils, Laptop, ChevronLeft, ChevronRight, CheckCircle2, Heart, Sparkles, ArrowRight, Volume2, VolumeX } from 'lucide-react';
+import { Beaker, Library as LibraryIcon, Trophy, Utensils, Laptop, ChevronLeft, ChevronRight, CheckCircle2, Heart, Sparkles, ArrowRight, Volume2, VolumeX, Award, GraduationCap, Quote } from 'lucide-react';
 import useEmblaCarousel from "embla-carousel-react";
 import { useEffect, useCallback, useState } from "react";
 import { motion } from "framer-motion";
@@ -522,6 +522,438 @@ const Infrastructure = () => {
                     </div>
 
                 </section>
+
+                {/* VALUE ADDED COURSES (VAC) SECTION */}
+                <section className="container mx-auto px-6 py-14 lg:py-20 relative overflow-hidden space-y-16">
+
+                    {/* Background Glow */}
+                    <div className="absolute top-1/3 left-1/4 w-80 h-80 bg-brand-gold/10 rounded-full blur-[140px] pointer-events-none" />
+                    <div className="absolute bottom-10 right-10 w-72 h-72 bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />
+
+                    {/* 1. SECTION HEADER */}
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="text-center space-y-4 max-w-4xl mx-auto"
+                    >
+                        <motion.div variants={itemVariants} className="flex items-center justify-center gap-3">
+                            <Sparkles className="h-5 w-5 text-brand-gold" />
+                            <p className="text-brand-gold font-black text-xs tracking-[0.4em] uppercase font-display italic">
+                                Beyond the Curriculum
+                            </p>
+                        </motion.div>
+
+                        <motion.h2 variants={itemVariants} className="text-3xl md:text-5xl lg:text-6xl font-black font-display text-brand-navy leading-tight italic uppercase">
+                            Value Added <span className="text-brand-gold">Courses</span>
+                        </motion.h2>
+
+                        <motion.p variants={itemVariants} className="text-slate-600 text-base md:text-lg leading-relaxed font-display max-w-3xl mx-auto">
+                            At SRI SAI VIDYALAYA, learning goes beyond textbooks and classrooms. Our Value Added Courses give students opportunities to build practical skills, confidence, communication abilities, and awareness of the real-world requirements of tomorrow.
+                        </motion.p>
+
+                        <motion.div variants={itemVariants} className="pt-2 inline-block">
+                            <span className="px-6 py-2.5 bg-brand-gold/10 border border-brand-gold/30 rounded-full text-brand-navy font-black text-xs md:text-sm uppercase tracking-[0.25em] font-display italic inline-flex items-center gap-2 shadow-sm">
+                                <Award className="h-4 w-4 text-brand-gold" />
+                                Skills Today, Success Tomorrow
+                            </span>
+                        </motion.div>
+                    </motion.div>
+
+                    {/* 2. INTRODUCTION CARD */}
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="max-w-4xl mx-auto"
+                    >
+                        <motion.div
+                            variants={itemVariants}
+                            className="bg-white p-8 md:p-10 rounded-[2.5rem] border border-slate-100 shadow-md relative overflow-hidden group hover:shadow-xl transition-all duration-500"
+                        >
+                            <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 group-hover:bg-brand-gold/10 transition-colors" />
+                            <div className="flex flex-col md:flex-row items-center gap-6 relative z-10">
+                                <div className="h-16 w-16 bg-brand-navy/5 rounded-2xl flex items-center justify-center border border-brand-navy/10 text-brand-gold shrink-0">
+                                    <GraduationCap className="h-8 w-8 text-brand-gold" />
+                                </div>
+                                <div className="space-y-2 text-center md:text-left">
+                                    <h3 className="text-xl font-black font-display text-brand-navy italic uppercase tracking-tight">
+                                        Understanding Value Added Courses (VAC)
+                                    </h3>
+                                    <p className="text-slate-600 text-sm md:text-base leading-relaxed font-display font-medium">
+                                        A Value Added Course (VAC) is designed to provide students with knowledge and skills beyond their regular academic curriculum. It helps learners develop practical abilities, communication skills, confidence, and awareness of real-world requirements.
+                                    </p>
+                                </div>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+
+                    {/* 3 & 4. INFOSYS SPRINGBOARD & EDUVATE FEATURE CARDS */}
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="space-y-12"
+                    >
+                        {/* INFOSYS SPRINGBOARD */}
+                        <motion.div
+                            variants={itemVariants}
+                            className="bg-slate-50 rounded-[2.5rem] border border-slate-200/80 p-8 md:p-12 shadow-sm hover:shadow-md transition-all overflow-hidden"
+                        >
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                                <div className="space-y-6">
+                                    <div className="flex items-center gap-3">
+                                        <div className="h-1 w-10 bg-brand-gold rounded-full" />
+                                        <span className="text-xs font-black text-brand-navy uppercase tracking-widest font-display italic">
+                                            Digital Reskilling Partner
+                                        </span>
+                                    </div>
+                                    <h3 className="text-2xl md:text-4xl font-black font-display text-brand-navy italic uppercase">
+                                        Infosys <span className="text-brand-gold">Springboard</span>
+                                    </h3>
+                                    <p className="text-slate-600 text-sm md:text-base leading-relaxed font-display">
+                                        Infosys Springboard is a digital learning and reskilling platform from Infosys that provides learners with access to digital, emerging technology, professional, soft, and life-skills learning. In India, the platform supports learners from school students to lifelong learners and provides learning opportunities designed to develop future-ready skills.
+                                    </p>
+                                    <div className="flex flex-wrap gap-3 pt-2">
+                                        {["Digital Learning", "Emerging Tech", "Life-Skills", "Future Ready"].map((tag, idx) => (
+                                            <span key={idx} className="px-4 py-1.5 bg-white border border-slate-200 rounded-full text-xs font-bold text-brand-navy font-display">
+                                                {tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border-4 border-white shadow-xl group">
+                                    <img
+                                        src="/computer_lab/spring.jpeg"
+                                        alt="Infosys Springboard Certificate"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                                        onError={(e) => {
+                                            (e.currentTarget as HTMLElement).style.display = 'none';
+                                            const parent = e.currentTarget.parentElement as HTMLElement;
+                                            if (parent && !parent.querySelector('.placeholder-text')) {
+                                                parent.classList.add('bg-brand-navy', 'flex', 'items-center', 'justify-center', 'p-6', 'text-center');
+                                                const txt = document.createElement('p');
+                                                txt.className = 'placeholder-text text-white font-bold font-display text-sm';
+                                                txt.innerText = 'Infosys Springboard Certificate';
+                                                parent.appendChild(txt);
+                                            }
+                                        }}
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        {/* EDUVATE */}
+                        <motion.div
+                            variants={itemVariants}
+                            className="bg-white rounded-[2.5rem] border border-slate-200/80 p-8 md:p-12 shadow-sm hover:shadow-md transition-all overflow-hidden"
+                        >
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                                <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border-4 border-white shadow-xl group order-2 lg:order-1">
+                                    <img
+                                        src="/computer_lab/eduvate.jpeg"
+                                        alt="Eduvate Group Activity"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                                        onError={(e) => {
+                                            (e.currentTarget as HTMLElement).style.display = 'none';
+                                            const parent = e.currentTarget.parentElement as HTMLElement;
+                                            if (parent && !parent.querySelector('.placeholder-text')) {
+                                                parent.classList.add('bg-brand-navy', 'flex', 'items-center', 'justify-center', 'p-6', 'text-center');
+                                                const txt = document.createElement('p');
+                                                txt.className = 'placeholder-text text-white font-bold font-display text-sm';
+                                                txt.innerText = 'Eduvate Group Activity';
+                                                parent.appendChild(txt);
+                                            }
+                                        }}
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                                </div>
+
+                                <div className="space-y-6 order-1 lg:order-2">
+                                    <div className="flex items-center gap-3">
+                                        <div className="h-1 w-10 bg-brand-gold rounded-full" />
+                                        <span className="text-xs font-black text-brand-navy uppercase tracking-widest font-display italic">
+                                            Educational Support & Learning
+                                        </span>
+                                    </div>
+                                    <h3 className="text-2xl md:text-4xl font-black font-display text-brand-navy italic uppercase">
+                                        Edu<span className="text-brand-gold">vate</span>
+                                    </h3>
+                                    <p className="text-slate-600 text-sm md:text-base leading-relaxed font-display">
+                                        Eduvate is an education-focused organization that works with schools and educational institutions to support structured learning and student development. Its programs include integrated school learning and preparation-oriented educational support, with an emphasis on strengthening students' foundations and developing their academic capabilities.
+                                    </p>
+                                    <div className="flex flex-wrap gap-3 pt-2">
+                                        {["Structured Learning", "Academic Capability", "Foundation Building", "Integrated Support"].map((tag, idx) => (
+                                            <span key={idx} className="px-4 py-1.5 bg-slate-50 border border-slate-200 rounded-full text-xs font-bold text-brand-navy font-display">
+                                                {tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+
+                    {/* 5. CERTIFICATE SHOWCASE */}
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="space-y-8"
+                    >
+                        <div className="text-center space-y-3">
+                            <h3 className="text-2xl md:text-3xl font-black font-display text-brand-navy italic uppercase">
+                                Course <span className="text-brand-gold">Certifications</span>
+                            </h3>
+                            <p className="text-slate-500 text-sm md:text-base max-w-2xl mx-auto font-display">
+                                Recognized certifications earned by our students for completing value added courses.
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                            {[
+                                { path: "/computer_lab/certi-1.jpeg", alt: "Certificate 1" },
+                                { path: "/computer_lab/certi-2.jpeg", alt: "Certificate 2" },
+                                { path: "/computer_lab/certi-3.jpeg", alt: "Certificate 3" },
+                            ].map((cert, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    variants={itemVariants}
+                                    className="bg-white rounded-2xl md:rounded-3xl border border-slate-200/80 p-4 shadow-sm hover:shadow-xl transition-all duration-500 group overflow-hidden"
+                                >
+                                    <div className="relative aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden border-2 border-slate-100 bg-slate-50">
+                                        <img
+                                            src={cert.path}
+                                            alt={cert.alt}
+                                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                                            onError={(e) => {
+                                                (e.currentTarget as HTMLElement).style.display = 'none';
+                                                const parent = e.currentTarget.parentElement as HTMLElement;
+                                                if (parent && !parent.querySelector('.placeholder-text')) {
+                                                    parent.classList.add('bg-brand-navy', 'flex', 'items-center', 'justify-center', 'p-6', 'text-center');
+                                                    const txt = document.createElement('p');
+                                                    txt.className = 'placeholder-text text-white font-bold font-display text-xs';
+                                                    txt.innerText = `${cert.alt} Showcase`;
+                                                    parent.appendChild(txt);
+                                                }
+                                            }}
+                                        />
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </motion.div>
+
+                    {/* 6. STUDENT LEARNING EXPERIENCES */}
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="space-y-10"
+                    >
+                        <div className="text-center space-y-3">
+                            <h3 className="text-2xl md:text-4xl font-black font-display text-brand-navy italic uppercase">
+                                Student <span className="text-brand-gold">Learning Experiences</span>
+                            </h3>
+                            <p className="text-slate-500 text-sm md:text-base max-w-2xl mx-auto font-display">
+                                Hear how additional learning opportunities helped our students grow in knowledge, confidence, skills, and future readiness.
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                            {[
+                                {
+                                    quote: "“Pursuing the course through Infosys Springboard was a valuable learning experience for me. It helped me improve my knowledge beyond the regular classroom curriculum. The course content was easy to understand and allowed me to learn at my own pace. Completing the course and receiving the certificate gave me a sense of achievement and encouraged me to continue learning new skills.”",
+                                    label: " Learning Experience"
+                                },
+                                {
+                                    quote: "“The course helped me understand the importance of developing skills along with academic knowledge. I gained useful insights and became more confident in expressing my thoughts and learning independently. The online learning experience also taught me how to manage my time and complete learning activities responsibly. I am grateful for the opportunity to pursue this course.”",
+                                    label: " Confidence & Skill Development"
+                                },
+                                {
+                                    quote: "“This course was a wonderful opportunity to explore a new area of learning. It helped me understand how additional skills can support my academic journey and future career. The certification motivated me to participate in more learning programs and improve myself continuously. I believe such courses help students become more confident, skilled, and future-ready.”",
+                                    label: " Future Readiness"
+                                }
+                            ].map((item, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    variants={itemVariants}
+                                    className="bg-white p-8 rounded-[2rem] border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-between group"
+                                >
+                                    <div className="space-y-6">
+                                        <Quote className="h-8 w-8 text-brand-gold/60 group-hover:text-brand-gold transition-colors" />
+                                        <p className="text-slate-600 text-sm leading-relaxed font-display italic">
+                                            {item.quote}
+                                        </p>
+                                    </div>
+                                    <div className="pt-6 mt-6 border-t border-slate-100">
+                                        <p className="text-xs font-black text-brand-gold font-display uppercase tracking-wider italic">
+                                            {item.label}
+                                        </p>
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </motion.div>
+                </section>
+
+                {/* AUDIO-VISUAL (AV) ROOM SECTION */}
+                <section className="container mx-auto px-6 py-14 lg:py-20 relative overflow-hidden space-y-16">
+
+                    {/* Background Glow */}
+                    <div className="absolute top-1/4 left-10 w-72 h-72 bg-brand-gold/10 rounded-full blur-[120px] pointer-events-none" />
+                    <div className="absolute bottom-0 right-10 w-80 h-80 bg-blue-500/5 rounded-full blur-[140px] pointer-events-none" />
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+
+                        {/* LEFT VISUAL (2 Image Layout) */}
+                        <div className="space-y-6">
+
+                            {/* MAIN HERO IMAGE */}
+                            <div className="relative aspect-[4/3] rounded-[2rem] lg:rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white group">
+                                <img
+                                    src="/computer_lab/av-1.jpeg"
+                                    alt="Audio-Visual Room"
+                                    className="w-full h-full object-cover group-hover:scale-105 transition duration-[2s]"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                            </div>
+
+                            {/* SECONDARY IMAGE */}
+                            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border-4 border-white shadow-lg group">
+                                <img
+                                    src="/computer_lab/av-2.jpeg"
+                                    alt="Students Learning in the Audio-Visual Room"
+                                    className="w-full h-full object-cover group-hover:scale-105 transition duration-[1.5s]"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                            </div>
+
+                        </div>
+
+                        {/* RIGHT CONTENT */}
+                        <div className="space-y-8">
+
+                            {/* Eyebrow Label */}
+                            <div className="flex items-center gap-3">
+                                <Volume2 className="h-5 w-5 text-brand-gold" />
+                                <p className="text-brand-gold font-black text-xs tracking-[0.4em] uppercase font-display italic">
+                                    Interactive Learning
+                                </p>
+                            </div>
+
+                            {/* Title */}
+                            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black font-display text-brand-navy leading-[0.95] italic uppercase">
+                                Learning Through <span className="text-brand-gold">Vision & Sound</span>
+                            </h2>
+
+                            {/* Catchy Highlight Banner */}
+                            <div className="p-4 bg-brand-navy/5 border-l-4 border-brand-gold rounded-r-xl">
+                                <p className="text-brand-navy font-black text-xs md:text-sm uppercase tracking-wider font-display italic">
+                                    "See It. Hear It. Understand It. Experience Learning Differently."
+                                </p>
+                            </div>
+
+                            {/* Description Paragraphs */}
+                            <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed font-display">
+                                <p className="font-medium">
+                                    Our Audio-Visual (AV) Room provides students with an engaging and interactive learning environment. Through educational videos, presentations, animations, and digital resources, students gain a better understanding of complex concepts. The AV room encourages visual learning, creativity, curiosity, and active participation, making classroom learning more interesting and effective.
+                                </p>
+
+                                <p className="text-slate-500">
+                                    By combining visual, auditory, and digital learning resources, the AV Room helps teachers present concepts in a clear and engaging way. It provides students with opportunities to observe, explore, discuss, and connect classroom knowledge with real-world examples.
+                                </p>
+
+                                <p className="text-slate-500">
+                                    From multimedia presentations and educational films to animated explanations and interactive digital content, the AV Room supports different learning styles and makes lessons more memorable.
+                                </p>
+                            </div>
+
+                            {/* Feature Grid */}
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                                {[
+                                    "Educational Videos",
+                                    "Digital Presentations",
+                                    "Animated Learning",
+                                    "Interactive Lessons",
+                                    "Visual Learning",
+                                    "Student Engagement"
+                                ].map((item, i) => (
+                                    <div
+                                        key={i}
+                                        className="p-3 rounded-xl bg-slate-50 border border-slate-100 flex items-center gap-2.5 hover:border-brand-gold/30 transition"
+                                    >
+                                        <CheckCircle2 className="h-4 w-4 text-brand-gold shrink-0" />
+                                        <span className="text-[11px] font-black text-brand-navy uppercase tracking-wider font-display italic leading-tight">
+                                            {item}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+
+                        </div>
+                    </div>
+
+                    {/* LEARNING BENEFITS SECTION */}
+                    <div className="mt-16 space-y-6">
+                        <div className="text-center space-y-2">
+                            <h3 className="text-xl md:text-2xl font-black font-display text-brand-navy italic uppercase">
+                                Why <span className="text-brand-gold">AV-Based Learning?</span>
+                            </h3>
+                        </div>
+
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                            {[
+                                "Better Understanding",
+                                "Visual & Interactive Learning",
+                                "Improved Attention",
+                                "Enhanced Creativity",
+                                "Real-World Exposure",
+                                "Active Participation"
+                            ].map((benefit, i) => (
+                                <div
+                                    key={i}
+                                    className="p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-brand-gold/30 transition text-center flex flex-col items-center justify-center gap-2"
+                                >
+                                    <CheckCircle2 className="h-5 w-5 text-brand-gold" />
+                                    <p className="text-xs font-bold text-brand-navy font-display leading-tight">
+                                        {benefit}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                </section>
+                <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewportConfig}
+                        variants={containerVariants}
+                        className="bg-brand-navy text-white rounded-[2.5rem] p-8 md:p-14 relative overflow-hidden border-b-[8px] border-brand-gold shadow-xl"
+                    >
+                        {/* Background Glow */}
+                        <div className="absolute top-0 right-0 w-72 h-72 bg-brand-gold/10 rounded-full blur-[100px] pointer-events-none" />
+
+                        <div className="relative z-10 text-center space-y-6 max-w-4xl mx-auto">
+                            <p className="text-blue-100/90 text-base md:text-xl font-medium font-display leading-relaxed">
+                                At Sri Sai Vidyalaya, we believe that education is not limited to academic achievement. By encouraging students to explore additional learning opportunities, we aim to nurture confident, skilled, responsible, and future-ready learners.
+                            </p>
+
+                            <div className="pt-2">
+                                <span className="inline-block px-8 py-3 bg-brand-gold text-brand-navy font-black text-xs md:text-sm uppercase tracking-[0.3em] font-display italic rounded-full shadow-lg">
+                                    Skills Today, Success Tomorrow
+                                </span>
+                            </div>
+                        </div>
+                    </motion.div>
 
 
                 {/* Simplified Overview Grid */}
